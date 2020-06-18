@@ -4,14 +4,17 @@ int x;
 
 void setup() {
     size(800, 200);
-    
+    int x = 50;
     //1. Set the variable named x to 50.
 }
 
 void draw() {
-
 	background(200,200,200);
- 
+   fill(#5DD5FF);
+   ellipse(x, 100, 50, 50);
+   if(mousePressed) {
+    x = x + 5;
+  }
     //2. Draw an ellipse of height and width 50. Make sure to use the x variable for its X position. 
     //   Pick a y value that places it half way down the window.
       

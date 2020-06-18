@@ -3,14 +3,17 @@
  
  
  // 1. Create three integer variables to represent the x, y, and the size of the ellipse
-       
+       int x = 100;
+       int y = 100;
+       int size = 60;
     void setup() {
       // 2. Set the size of your sketch
-    
+    size(500,500);
     }
     
     void draw() {
-    
+    background(200,200,200);
+    ellipse(x, y, size);
       // 3. Set the background color of your sketch
       
       // 4. Draw an ellipse using the variables created at the top of the sketch for the location and size of your ellipse. 
